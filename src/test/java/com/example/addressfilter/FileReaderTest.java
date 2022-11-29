@@ -73,30 +73,42 @@ public class FileReaderTest {
 
     @Transactional
     @Test
-    @Rollback()
+    @Rollback(false)
     void batchInsert() throws Exception {
         long start;
         long end;
         String rootPath = System.getProperty("user.dir");
-        File file = new File(rootPath + "/data/도로명코드_전체.txt");
+        File file = new File(rootPath + "/data/도로명코드_전체4.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "euc-kr"));
         String a;
-        HashSet<String> roadStrSet = new HashSet<>();
+        HashSet<String> roadStrSet = new HashSet<>(); //도로명
+//        HashSet<String> cityStrSet = new HashSet<>(); //시도명
+//        HashSet<String> regionStrSet = new HashSet<>(); //시군구
+//        HashSet<String> provinceStrSet = new HashSet<>(); //읍면동
 
         start = System.currentTimeMillis();
-        br.readLine(); // 헤더컬럼 삭제
+//        br.readLine(); // 헤더컬럼 삭제
         while(true) {
             String line = br.readLine();
             if(line == null) break;
             String[] str = line.split("\t");
             roadStrSet.add(str[2]);
+//            cityStrSet.add(str[5]);
+//            regionStrSet.add(str[6]);
+//            provinceStrSet.add(str[9]);
+//            for (int i = 0; i < str.length; i++) {
+//                String s = str[i];
+//                System.out.print("[" + i + "] " + s + " | ");
+//            }
+            System.out.println();
         }
 
         end = System.currentTimeMillis();
         System.out.println("도로명 추출 시간 : " + (end - start));
 
+        // 도로명 insert
         ArrayList<String> roadList = new ArrayList<>(roadStrSet);
-        roadNameJdbcRepository.batchInsert(roadList);
+        roadNameJdbcRepository.roadNameBatchInsert(roadList);
         end = System.currentTimeMillis();
         System.out.println("전체 수행 시간 : " + (end - start));
     }

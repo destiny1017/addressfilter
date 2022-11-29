@@ -15,7 +15,7 @@ public class RoadNameJdbcRepository {
 
     private final JdbcTemplate jdbcTemplate;
 
-    public void batchInsert(List<String> roadList) {
+    public void roadNameBatchInsert(List<String> roadList) {
         jdbcTemplate.batchUpdate("insert into road_name(name) values(?)"
         ,new BatchPreparedStatementSetter() {
 
