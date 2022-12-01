@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h3>주소 입력</h3>
+    <div>
+        <input type="text" id="address" style="height: 20px; width: 50%;" onkeyup="enterKey()">
+        <button id="btn" onclick='addressFilter()'>추출</button>
+    </div>
+    <h4>결과</h4>
+    <div>
+        <lable id="result_input"></lable><br>
+        <lable id="result_road"></lable><br>
+        <lable id="result_valid"></lable>
+    </div>
+</div>
+<script>
+
+function addressFilter() {
+    let uri = "/api/address-filter";
+    let method = "GET";
+    let param = document.getElementById("address").value;
+    console.log(uri, method, param);
+    uri += "?address=" + param;
+    httpCall(uri, method, param);
+}
+
+function httpCall(uri, method, param) {
+    const xhr = new XMLHttpRequest();
+    const url = "http://localhost:38081" + uri;
+    xhr.open(method, url);
+
+    xhr.addEventListener('readystatechange', function (event) {
+        const { target } = event;
+
+        if (target.readyState === XMLHttpRequest.DONE) {
+            const { status } = target;
+
+            if (status === 0 || (status >= 200 && status < 400)) {
+                // 요청이 정상적으로 처리 된 경우
+                console.log(xhr.responseText);
+                let result = JSON.parse(xhr.responseText);
+                document.getElementById("result_input").innerHTML = "입력값 : " + result.inputAddress;
+                document.getElementById("result_road").innerHTML = "도로명 : " + result.roadName;
+                document.getElementById("result_valid").innerHTML = "존재여부 : " + result.existRoadName;
+            } else {
+                // 에러가 발생한 경우
+                console.log(xhr);
+            }
+        }
+    });
+
+    // 서버에 요청을 보냅니다.
+    //xhr.send(JSON.stringify(data));
+    xhr.send();
+}
+
+function enterKey() {
+	if (window.event.keyCode == 13) {
+    	// 엔터키가 눌렸을 때
+    	addressFilter();
+    }
+}
+
+</script>
+</body>
+</html>
