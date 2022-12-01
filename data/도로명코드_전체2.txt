@@ -1,0 +1,59 @@
+시군구	도로명코드	도로명	영문도로명	읍면동일련번호	시도명	시군구명	읍면동구분	읍면동코드	읍면동명	상위도로코드	상위도로명	폐지구분	변경이력사유	변경이력정보	영문시도명	영문시군구명	영문읍면동명	고시일자	말소일자
+11110	2005001	세종대로	Sejong-daero	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20100520
+11110	2005001	세종대로	Sejong-daero	01	서울특별시	종로구	1	119	세종로			0			Seoul	Jongno-gu	Sejongno	20100520
+11110	2005001	세종대로	Sejong-daero	02	서울특별시	종로구	1	126	종로1가			0			Seoul	Jongno-gu	Jongno 1(il)-ga	20100520
+11110	2100001	삼일대로	Samil-daero	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20100422
+11110	2100001	삼일대로	Samil-daero	01	서울특별시	종로구	1	132	운니동			0			Seoul	Jongno-gu	Unni-dong	20100422
+11110	2100001	삼일대로	Samil-daero	02	서울특별시	종로구	1	134	경운동			0			Seoul	Jongno-gu	Gyeongun-dong	20100422
+11110	2100001	삼일대로	Samil-daero	03	서울특별시	종로구	1	135	관철동			0			Seoul	Jongno-gu	Gwancheol-dong	20100422
+11110	2100001	삼일대로	Samil-daero	04	서울특별시	종로구	1	136	인사동			0			Seoul	Jongno-gu	Insa-dong	20100422
+11110	2100001	삼일대로	Samil-daero	05	서울특별시	종로구	1	137	낙원동			0			Seoul	Jongno-gu	Nagwon-dong	20100422
+11110	2100001	삼일대로	Samil-daero	06	서울특별시	종로구	1	138	종로2가			0			Seoul	Jongno-gu	Jongno 2(i)-ga	20100422
+11110	2100002	필운대로	Pirundae-ro	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20100702
+11110	2100002	필운대로	Pirundae-ro	01	서울특별시	종로구	1	102	신교동			0			Seoul	Jongno-gu	Singyo-dong	20100702
+11110	2100002	필운대로	Pirundae-ro	02	서울특별시	종로구	1	108	통인동			0			Seoul	Jongno-gu	Tongin-dong	20100702
+11110	2100002	필운대로	Pirundae-ro	03	서울특별시	종로구	1	110	누하동			0			Seoul	Jongno-gu	Nuha-dong	20100702
+11110	2100002	필운대로	Pirundae-ro	04	서울특별시	종로구	1	111	옥인동			0			Seoul	Jongno-gu	Ogin-dong	20100702
+11110	2100002	필운대로	Pirundae-ro	05	서울특별시	종로구	1	113	필운동			0			Seoul	Jongno-gu	Pirun-dong	20100702
+11110	3000008	통일로	Tongil-ro	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20090710
+11110	3000008	통일로	Tongil-ro	01	서울특별시	종로구	1	176	교남동			0			Seoul	Jongno-gu	Gyonam-dong	20090710
+11110	3000008	통일로	Tongil-ro	02	서울특별시	종로구	1	177	평동			0			Seoul	Jongno-gu	Pyeong-dong	20090710
+11110	3000008	통일로	Tongil-ro	03	서울특별시	종로구	1	178	송월동			0			Seoul	Jongno-gu	Songwol-dong	20090710
+11110	3000008	통일로	Tongil-ro	04	서울특별시	종로구	1	179	홍파동			0			Seoul	Jongno-gu	Hongpa-dong	20090710
+11110	3000008	통일로	Tongil-ro	05	서울특별시	종로구	1	180	교북동			0			Seoul	Jongno-gu	Gyobuk-dong	20090710
+11110	3000008	통일로	Tongil-ro	06	서울특별시	종로구	1	187	무악동			0			Seoul	Jongno-gu	Muak-dong	20090710
+11110	3005001	동호로	Dongho-ro	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20100422
+11110	3005001	동호로	Dongho-ro	01	서울특별시	종로구	1	163	종로5가			0			Seoul	Jongno-gu	Jongno 5(o)-ga	20100422
+11110	3005002	무교로	Mugyo-ro	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20100422
+11110	3005002	무교로	Mugyo-ro	01	서울특별시	종로구	1	123	서린동			0			Seoul	Jongno-gu	Seorin-dong	20100422
+11110	3005003	보문로	Bomun-ro	00	서울특별시	종로구	2					0			Seoul	Jongno-gu		20100422
+11110	3005003	보문로	Bomun-ro	01	서울특별시	종로구	1	175	숭인동			0			Seoul	Jongno-gu	Sungin-dong	20100422
+26380	4202075	괴정로31번길	Goejeong-ro 31beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202075	괴정로31번길	Goejeong-ro 31beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202076	괴정로33번길	Goejeong-ro 33beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202076	괴정로33번길	Goejeong-ro 33beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202077	괴정로37번길	Goejeong-ro 37beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202077	괴정로37번길	Goejeong-ro 37beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202078	괴정로43번길	Goejeong-ro 43beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202078	괴정로43번길	Goejeong-ro 43beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202079	괴정로57번길	Goejeong-ro 57beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202079	괴정로57번길	Goejeong-ro 57beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202080	괴정로71번길	Goejeong-ro 71beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202080	괴정로71번길	Goejeong-ro 71beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202081	괴정로73번길	Goejeong-ro 73beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202081	괴정로73번길	Goejeong-ro 73beon-gil	01	부산광역시	사하구	1	103	하단동			0			Busan	Saha-gu	Hadan-dong	20100331
+26380	4202082	구평로10번길	Gupyeong-ro 10beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100428
+26380	4202082	구평로10번길	Gupyeong-ro 10beon-gil	01	부산광역시	사하구	1	107	구평동			0			Busan	Saha-gu	Gupyeong-dong	20100428
+26380	4202083	구평로16번길	Gupyeong-ro 16beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100428
+26380	4202083	구평로16번길	Gupyeong-ro 16beon-gil	01	부산광역시	사하구	1	107	구평동			0			Busan	Saha-gu	Gupyeong-dong	20100428
+26380	4202085	까치고개로20번길	Kkachigogae-ro 20beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202085	까치고개로20번길	Kkachigogae-ro 20beon-gil	01	부산광역시	사하구	1	101	괴정동			0			Busan	Saha-gu	Goejeong-dong	20100331
+26380	4202086	까치고개로26번길	Kkachigogae-ro 26beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202086	까치고개로26번길	Kkachigogae-ro 26beon-gil	01	부산광역시	사하구	1	101	괴정동			0			Busan	Saha-gu	Goejeong-dong	20100331
+26380	4202087	까치고개로47번길	Kkachigogae-ro 47beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202087	까치고개로47번길	Kkachigogae-ro 47beon-gil	01	부산광역시	사하구	1	101	괴정동			0			Busan	Saha-gu	Goejeong-dong	20100331
+26380	4202088	까치고개로63번길	Kkachigogae-ro 63beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202088	까치고개로63번길	Kkachigogae-ro 63beon-gil	01	부산광역시	사하구	1	101	괴정동			0			Busan	Saha-gu	Goejeong-dong	20100331
+26380	4202089	까치고개로64번길	Kkachigogae-ro 64beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
+26380	4202089	까치고개로64번길	Kkachigogae-ro 64beon-gil	01	부산광역시	사하구	1	101	괴정동			0			Busan	Saha-gu	Goejeong-dong	20100331
+26380	4202090	까치고개로6번길	Kkachigogae-ro 6beon-gil	00	부산광역시	사하구	2					0			Busan	Saha-gu		20100331
