@@ -9,10 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 @SpringBootTest
@@ -78,7 +75,7 @@ public class FileReaderTest {
         long start;
         long end;
         String rootPath = System.getProperty("user.dir");
-        File file = new File(rootPath + "/data/도로명코드_전체4.txt");
+        File file = new File(rootPath + "/data/도로명코드_전체.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "euc-kr"));
         String a;
         HashSet<String> roadStrSet = new HashSet<>(); //도로명
@@ -111,6 +108,73 @@ public class FileReaderTest {
         roadNameJdbcRepository.roadNameBatchInsert(roadList);
         end = System.currentTimeMillis();
         System.out.println("전체 수행 시간 : " + (end - start));
+    }
+
+    @Test
+    void sampleDataRead() {
+        long start;
+        long end;
+        ArrayList<String> addressList = new ArrayList<>();
+        try {
+            String rootPath = System.getProperty("user.dir");
+            File file = new File(rootPath + "/data/샘플주소.txt");
+            File file2 = new File(rootPath + "/data/샘플주소_가공.txt");
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
+            FileWriter fw = new FileWriter(file2);
+            BufferedWriter writer = new BufferedWriter(fw);
+
+            while(true) {
+                StringBuilder line = new StringBuilder(br.readLine());
+                if(line == null || line.length() == 0) break;
+                Random r = new Random();
+                char str[] = new char[10];
+                for (int i = 0; i < str.length; i++) {
+                    if(i == 0 || i ==  4) str[i] = ' ';
+                    else {
+                        int num = r.nextInt(11171) + 44032;
+                        str[i] = (char) num;
+                    }
+                }
+                line.append(String.valueOf(str) + "\n");
+                writer.write(line.toString());
+            }
+
+        } catch(Exception e) {
+
+        }
+    }
+
+    @Test
+    void fileWriteTest() throws Exception {
+        String rootPath = System.getProperty("user.dir");
+        File file = new File(rootPath + "/data/fileWriter.txt");
+        FileWriter fw = new FileWriter(file);
+        BufferedWriter writer = new BufferedWriter(fw);
+
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+
+        writer.write("line1\n");
+        writer.write("line2\n");
+        writer.write("line3\n");
+        writer.write("line4\n");
+
+        writer.close();
+
+    }
+
+    @Test
+    void uniTest() {
+        char a = '가';
+        char b = '힣';
+        System.out.println("(int) a = " + (int) a);
+        System.out.println("(int) b = " + (int) b);
+        Random r = new Random();
+        for (int i = 0; i < 10; i++) {
+            int num = r.nextInt(11171) + 44032;
+            System.out.println(num + " = " + ((char) num));
+        }
     }
 
 }

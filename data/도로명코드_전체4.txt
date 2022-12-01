@@ -1,0 +1,69 @@
+시군구	도로명코드	도로명	영문도로명	읍면동일련번호	시도명	시군구명	읍면동구분	읍면동코드	읍면동명	상위도로코드	상위도로명	폐지구분	변경이력사유	변경이력정보	영문시도명	영문시군구명	영문읍면동명	고시일자	말소일자
+48850	4832300	신덕길	Sindeok-gil	01	경상남도	하동군	0	350	고전면			0			Gyeongsangnam-do	Hadong-gun	Gojeon-myeon	20090302	
+48850	4832300	신덕길	Sindeok-gil	02	경상남도	하동군	0	360	금남면			0			Gyeongsangnam-do	Hadong-gun	Geumnam-myeon	20090302	
+48850	4832301	신도길	Sindo-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832301	신도길	Sindo-gil	01	경상남도	하동군	0	420	금성면			0			Gyeongsangnam-do	Hadong-gun	Geumseong-myeon	20080402	
+48850	4832302	신도새들길	Sindosaedeul-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832302	신도새들길	Sindosaedeul-gil	01	경상남도	하동군	0	420	금성면			0			Gyeongsangnam-do	Hadong-gun	Geumseong-myeon	20080402	
+48850	4832303	신안길	Sinan-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832303	신안길	Sinan-gil	01	경상남도	하동군	0	370	진교면			0			Gyeongsangnam-do	Hadong-gun	Jingyo-myeon	20070618	
+48850	4832304	신월길	Sinwol-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832304	신월길	Sinwol-gil	01	경상남도	하동군	0	350	고전면			0			Gyeongsangnam-do	Hadong-gun	Gojeon-myeon	20080402	
+48850	4832305	신전길	Sinjeon-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832305	신전길	Sinjeon-gil	01	경상남도	하동군	0	380	양보면			0			Gyeongsangnam-do	Hadong-gun	Yangbo-myeon	20080402	
+48850	4832306	신정길	Sinjeong-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832306	신정길	Sinjeong-gil	01	경상남도	하동군	0	380	양보면			0			Gyeongsangnam-do	Hadong-gun	Yangbo-myeon	20080402	
+48850	4832307	신청내길	Sincheongnae-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20090302	
+48850	4832307	신청내길	Sincheongnae-gil	01	경상남도	하동군	0	380	양보면			0			Gyeongsangnam-do	Hadong-gun	Yangbo-myeon	20090302	
+48850	4832308	신촌길	Sinchon-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832308	신촌길	Sinchon-gil	01	경상남도	하동군	0	330	적량면			0			Gyeongsangnam-do	Hadong-gun	Jeongnyang-myeon	20070618	
+48850	4832309	신촌도심길	Sinchondosim-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20090302	
+48850	4832309	신촌도심길	Sinchondosim-gil	01	경상남도	하동군	0	310	화개면			0			Gyeongsangnam-do	Hadong-gun	Hwagae-myeon	20090302	
+48850	4832310	신촌마을길	Sinchonmaeul-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832310	신촌마을길	Sinchonmaeul-gil	01	경상남도	하동군	0	410	옥종면			0			Gyeongsangnam-do	Hadong-gun	Okjong-myeon	20080402	
+48850	4832311	신촌안길	Sinchonan-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832311	신촌안길	Sinchonan-gil	01	경상남도	하동군	0	390	북천면			0			Gyeongsangnam-do	Hadong-gun	Bukcheon-myeon	20070618	
+48850	4832312	신흥길	Sinheung-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832312	신흥길	Sinheung-gil	01	경상남도	하동군	0	320	악양면			0			Gyeongsangnam-do	Hadong-gun	Agyang-myeon	20070618	
+48850	4832313	심곡길	Simgok-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832313	심곡길	Simgok-gil	01	경상남도	하동군	0	410	옥종면			0			Gyeongsangnam-do	Hadong-gun	Okjong-myeon	20080402	
+48850	4832314	심방골길	Simbanggol-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832314	심방골길	Simbanggol-gil	01	경상남도	하동군	0	410	옥종면			0			Gyeongsangnam-do	Hadong-gun	Okjong-myeon	20080402	
+48850	4832315	아래몰길	Araemol-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832315	아래몰길	Araemol-gil	01	경상남도	하동군	0	400	청암면			0			Gyeongsangnam-do	Hadong-gun	Cheongam-myeon	20070618	
+48850	4832316	아정길	Ajeong-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832316	아정길	Ajeong-gil	01	경상남도	하동군	0	350	고전면			0			Gyeongsangnam-do	Hadong-gun	Gojeon-myeon	20080402	
+48850	4832317	안계길	Angye-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+48850	4832317	안계길	Angye-gil	01	경상남도	하동군	0	410	옥종면			0			Gyeongsangnam-do	Hadong-gun	Okjong-myeon	20080402	
+48850	4832318	안성길	Anseong-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832318	안성길	Anseong-gil	01	경상남도	하동군	0	330	적량면			0			Gyeongsangnam-do	Hadong-gun	Jeongnyang-myeon	20070618	
+48850	4832319	안심길	Ansim-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20070618	
+48850	4832319	안심길	Ansim-gil	01	경상남도	하동군	0	370	진교면			0			Gyeongsangnam-do	Hadong-gun	Jingyo-myeon	20070618	
+48850	4832321	양구1길	Yanggu 1-gil	00	경상남도	하동군	2					0			Gyeongsangnam-do	Hadong-gun		20080402	
+50110	4847419	넙은밧길	Neobeunbat-gil	01	제주특별자치도	제주시	0	253	애월읍			0			Jeju-do	Jeju-si	Aewol-eup	20110930	
+50110	4847420	노루손이길	Norusoni-gil	00	제주특별자치도	제주시	2					0			Jeju-do	Jeju-si		20090630	
+50110	4847420	노루손이길	Norusoni-gil	01	제주특별자치도	제주시	1	116	봉개동			0			Jeju-do	Jeju-si	Bonggae-dong	20090630	
+50110	4847421	노루손이북길	Norusonibuk-gil	00	제주특별자치도	제주시	2					0			Jeju-do	Jeju-si		20090630	
+50110	4847421	노루손이북길	Norusonibuk-gil	01	제주특별자치도	제주시	1	116	봉개동			0			Jeju-do	Jeju-si	Bonggae-dong	20090630	
+50110	4847423	녹고메길	Nokgome-gil	00	제주특별자치도	제주시	2					0			Jeju-do	Jeju-si		20081112	
+50110	4847423	녹고메길	Nokgome-gil	01	제주특별자치도	제주시	0	253	애월읍			0			Jeju-do	Jeju-si	Aewol-eup	20081112	
+50110	4847426	논세2길	Nonse 2-gil	00	제주특별자치도	제주시	2					0			Jeju-do	Jeju-si		20090630	
+50110	4847426	논세2길	Nonse 2-gil	01	제주특별자치도	제주시	1	140	내도동			0			Jeju-do	Jeju-si	Naedo-dong	20090630	
+50110	4847427	논세길	Nonse-gil	00	제주특별자치도	제주시	2					0			Jeju-do	Jeju-si		20090630	
+47150	4718254	덕전2길	Deokjeon 2-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718254	덕전2길	Deokjeon 2-gil	01	경상북도	김천시	0	380	대항면			0			Gyeongsangbuk-do	Gimcheon-si	Daehang-myeon	20081231	
+47150	4718255	덕전3길	Deokjeon 3-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718255	덕전3길	Deokjeon 3-gil	01	경상북도	김천시	0	380	대항면			0			Gyeongsangbuk-do	Gimcheon-si	Daehang-myeon	20081231	
+47150	4718256	덕전4길	Deokjeon 4-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718256	덕전4길	Deokjeon 4-gil	01	경상북도	김천시	0	380	대항면			0			Gyeongsangbuk-do	Gimcheon-si	Daehang-myeon	20081231	
+47150	4718257	덕전길	Deokjeon-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718257	덕전길	Deokjeon-gil	01	경상북도	김천시	0	380	대항면			0			Gyeongsangbuk-do	Gimcheon-si	Daehang-myeon	20081231	
+47150	4718258	덕전택지길	Deokjeontaekji-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718258	덕전택지길	Deokjeontaekji-gil	01	경상북도	김천시	0	380	대항면			0			Gyeongsangbuk-do	Gimcheon-si	Daehang-myeon	20081231	
+47150	4718259	덕천1길	Deokcheon 1-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718259	덕천1길	Deokcheon 1-gil	01	경상북도	김천시	0	370	봉산면			0			Gyeongsangbuk-do	Gimcheon-si	Bongsan-myeon	20081231	
+47150	4718260	덕천2길	Deokcheon 2-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718260	덕천2길	Deokcheon 2-gil	01	경상북도	김천시	0	370	봉산면			0			Gyeongsangbuk-do	Gimcheon-si	Bongsan-myeon	20081231	
+47150	4718261	덕천3길	Deokcheon 3-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
+47150	4718261	덕천3길	Deokcheon 3-gil	01	경상북도	김천시	0	370	봉산면			0			Gyeongsangbuk-do	Gimcheon-si	Bongsan-myeon	20081231	
+47150	4718262	덕천4길	Deokcheon 4-gil	00	경상북도	김천시	2					0			Gyeongsangbuk-do	Gimcheon-si		20081231	
